@@ -1,0 +1,336 @@
+﻿<Window x:Class="RssWatcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:RssWatcher"
+        xmlns:rsslib="clr-namespace:BLRssLib;assembly=BLRssLib"
+        Title="RSS Watcher"
+        Height="600"
+        Width="1024"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <Menu Grid.Row="0"
+          Height="23"
+          HorizontalAlignment="Stretch"
+          Name="mnuMain"
+          VerticalAlignment="Top">
+      <MenuItem Header="Fichier"
+                Name="mnuFile">
+        <MenuItem Name="mnuFileNew"
+                  Header="Nouveau fichier"
+                  Click="mnuFileNew_Click"></MenuItem>
+        <MenuItem Name="mnuFileOpen"
+                  Header="Ouvrir"
+                  Click="mnuFileOpen_Click"></MenuItem>
+        <MenuItem Name="mnuFileSave"
+                  Header="Sauver"
+                  Click="mnuFileSave_Click"></MenuItem>
+        <MenuItem Name="mnuFileImport"
+                  Header="Importer un fichier .opml"
+                  Click="mnuFileImport_Click"></MenuItem>
+        <MenuItem Name="mnuFileExport"
+                  Header="Exporter un fichier .opml"
+                  Click="mnuFileExport_Click"></MenuItem>
+
+        <MenuItem Name="mnuFileQuit"
+                  Header="Quitter"
+                  Click="mnuFileQuit_Click"></MenuItem>
+      </MenuItem>
+      <MenuItem Header="View"
+                Name="mnuView">
+        <MenuItem Header="Mode test"
+                  Name="mnuViewTest"
+                  IsCheckable="True" />
+      </MenuItem>
+      <MenuItem Name="mnuTools"
+                Header="Tools">
+        <MenuItem Name="mnuToolsCustomize"
+                  Header="Customize" />
+        <MenuItem Name="mnuToolsOptions"
+                  Header="Options"
+                  Click="mnuToolsOptions_Click" />
+      </MenuItem>
+      <MenuItem Header="Help"
+                Name="mnuHelp">
+        <MenuItem Name="mnuHelpAbout"
+                  Header="About"
+                  Click="mnuHelpAbout_Click"></MenuItem>
+      </MenuItem>
+
+    </Menu>
+    <StatusBar Grid.Row="2"
+               Height="23"
+               HorizontalAlignment="Stretch"
+               Name="stsMain"
+               VerticalAlignment="Bottom"
+               BorderBrush="Black"
+               BorderThickness="0.1">
+      <StatusBar.ItemsPanel>
+        <ItemsPanelTemplate>
+          <Grid>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="200" />
+              <ColumnDefinition Width="5" />
+              <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+          </Grid>
+        </ItemsPanelTemplate>
+      </StatusBar.ItemsPanel>
+
+      <StatusBarItem Name="stsStatus"
+                     Grid.Column="0"
+                     HorizontalAlignment="Stretch"
+                     HorizontalContentAlignment="Stretch">
+        <TextBlock Name="txtStatusBarLeft"
+                   Margin="5,0,5,0" />
+      </StatusBarItem>
+
+      <Separator Grid.Column="1" />
+
+      <StatusBarItem Name="stsStatus2"
+                     Grid.Column="2"
+                     HorizontalAlignment="Stretch"
+                     HorizontalContentAlignment="Stretch">
+        <TextBlock Name="txtStatusBarRight"
+                   Margin="5,0,5,0" />
+      </StatusBarItem>
+
+    </StatusBar>
+
+    <Grid Grid.Row="1">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="2*" />
+        <ColumnDefinition Width="auto" />
+        <ColumnDefinition Width="3*" />
+      </Grid.ColumnDefinitions>
+
+      <Grid Grid.Row="0">
+        <Border Margin="5,5,5,0"
+                Grid.Column="0">
+          <Grid>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="auto" />
+              <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0">URL :</Label>
+            <TextBox Grid.Column="1"
+                     Name="txtURL"
+                     HorizontalAlignment="Stretch" />
+          </Grid>
+        </Border>
+      </Grid>
+
+      <GridSplitter Grid.Column="1"
+                    Grid.Row="0"
+                    Grid.RowSpan="2"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Stretch"
+                    Background="LightGray"
+                    ShowsPreview="True"
+                    Width="5" />
+
+      <Grid Grid.Column="0"
+            Grid.Row="1">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="2*" />
+          <RowDefinition Height="auto" />
+          <RowDefinition Height="2*" />
+          <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <Grid.Resources>
+          <DataTemplate DataType="{x:Type rsslib:TLocalChannel}">
+            <StackPanel Orientation="Horizontal">
+              <Image Width="24"
+                     Height="24"
+                     Source="{Binding Path=Channel.Picture.Url.Value}"
+                     Margin="0,0,2,0"
+                     VerticalAlignment="Center"
+                     ToolTip="{Binding Path=Channel.Picture.Url.Value}" />
+              <TextBlock Text="{Binding Path=Channel.Title}"
+                         Foreground="Green"
+                         VerticalAlignment="Center" />
+            </StackPanel>
+          </DataTemplate>
+          <HierarchicalDataTemplate DataType="{x:Type local:TreeViewRssItem}"
+                                    ItemsSource="{Binding Path=Items}">
+            <StackPanel Orientation="Horizontal">
+              <Image Width="32"
+                     Height="24"
+                     Source="Resources\group.png"
+                     Margin="0,0,2,0"
+                     VerticalAlignment="Center" />
+              <TextBlock Text="{Binding Path=Header}"
+                         Foreground="Blue"
+                         VerticalAlignment="Center" />
+            </StackPanel>
+          </HierarchicalDataTemplate>
+        </Grid.Resources>
+        <GridSplitter Grid.Row="1"
+                      HorizontalAlignment="Stretch"
+                      VerticalAlignment="Center"
+                      ShowsPreview="True"
+                      Height="5"
+                      Background="LightGray" />
+        <TreeView Grid.Row="0"
+                  Margin="5"
+                  x:Name="tvChannels"
+                  SelectedItemChanged="tvChannels_SelectedItemChanged"
+                  ItemsSource="{Binding}">
+          <TreeView.ContextMenu>
+            <ContextMenu Name="mnuChannel">
+              <MenuItem Header="Refresh channel"
+                        Click="ctxmnuRefreshChannel_Click" />
+              <MenuItem Header="Refresh all channels"
+                        Command="Refresh"
+                        CommandParameter="All" />
+              <MenuItem Header="Set encoding"
+                        SubmenuOpened="ctxmnuEncoding_SubmenuOpened"
+                         StaysOpenOnClick="True">
+                <MenuItem Header="UTF-8"
+                          Click="ctxmnuEncoding_Click" />
+                <MenuItem Header="ISO-8859-1"
+                          Click="ctxmnuEncoding_Click" />
+                <MenuItem Header="UTF-16"
+                          Click="ctxmnuEncoding_Click" />
+                <MenuItem Header="UTF-16BE"
+                          Click="ctxmnuEncoding_Click" />
+                <MenuItem Header="Unicode"
+                          Click="ctxmnuEncoding_Click" />
+                <MenuItem Header="Windows-1252"
+                          Click="ctxmnuEncoding_Click" />
+              </MenuItem>
+
+            </ContextMenu>
+          </TreeView.ContextMenu>
+        </TreeView>
+        <!-- *********************************************************************** Debug area -->
+        <Expander 
+                  Grid.Row="3"
+                  ExpandDirection="Up"
+                  Header="Debug">
+          <ScrollViewer>
+            <TextBlock Name="DebugDisplay" />
+          </ScrollViewer>
+        </Expander>
+        <!-- *********************************************************************** /Debug area -->
+        <local:ListViewEx Grid.Row="2"
+                          Margin="5"
+                          x:Name="lvItems"
+                          SelectionChanged="lvItems_SelectionChanged"
+                          SizeChanged="lvItems_SizeChanged"
+                           Binding.SourceUpdated="lvItems_SourceUpdated">
+
+          <ListView.ContextMenu>
+            <ContextMenu>
+              <MenuItem Header="Mark as Unread"></MenuItem>
+              <MenuItem Header="Mark as Read"></MenuItem>
+            </ContextMenu>
+          </ListView.ContextMenu>
+          <ListView.ItemContainerStyle>
+            <Style TargetType="{x:Type ListViewItem}">
+              <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=IsRead}"
+                             Value="False">
+                  <Setter Property="Foreground"
+                          Value="Firebrick" />
+                </DataTrigger>
+                <DataTrigger Binding="{Binding Path=IsRead}"
+                             Value="True">
+                  <Setter Property="Foreground"
+                          Value="CornflowerBlue" />
+                </DataTrigger>
+              </Style.Triggers>
+              <Setter Property="HorizontalContentAlignment"
+                      Value="Stretch" />
+            </Style>
+          </ListView.ItemContainerStyle>
+          <ListView.View>
+            <GridView>
+              <GridView.Columns>
+                <GridViewColumn Header="Pic"
+                                Width="130">
+                  <GridViewColumn.CellTemplate>
+                    <DataTemplate>
+                      <Image Source="{Binding Path=Enclosure.Picture}"
+                             Height="64"
+                             Width="64"
+                             VerticalAlignment="Top" />
+                    </DataTemplate>
+                  </GridViewColumn.CellTemplate>
+                </GridViewColumn>
+                <GridViewColumn Header="Data">
+                  <GridViewColumn.CellTemplate>
+                    <DataTemplate>
+                      <Grid VerticalAlignment="Top">
+                        <Grid.RowDefinitions>
+                          <RowDefinition Height="auto" />
+                          <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Orientation="Horizontal"
+                                    Grid.Row="0">
+                          <TextBlock Grid.Row="0"
+                                     Margin="0,0,5,0"
+                                     FontWeight="Bold"
+                                     FontSize="12"
+                                     Foreground="DarkGray">
+                          <TextBlock.Text>
+                            <Binding Path="PubDateBE" />
+                          </TextBlock.Text>
+                          </TextBlock>
+                          <TextBlock Grid.Row="0"
+                                     FontWeight="Bold"
+                                     FontSize="12">
+                          <TextBlock.Text>
+                            <Binding Path="TitleDecoded" />
+                          </TextBlock.Text>
+                          </TextBlock>
+                        </StackPanel>
+
+                        <ScrollViewer Grid.Row="1"
+                                      VerticalScrollBarVisibility="Auto"
+                                      VerticalAlignment="Top"
+                                      HorizontalAlignment="Stretch">
+                          <TextBlock Text="{Binding Path=DescriptionCleaned}"
+                                     FontStyle="Italic"
+                                     TextWrapping="Wrap"
+                                     FontSize="10"
+                                     FontWeight="Normal" />
+                        </ScrollViewer>
+
+                      </Grid>
+                    </DataTemplate>
+                  </GridViewColumn.CellTemplate>
+                </GridViewColumn>
+              </GridView.Columns>
+            </GridView>
+          </ListView.View>
+        </local:ListViewEx>
+      </Grid>
+      <Border Grid.Column="2"
+              Grid.Row="0"
+              Grid.RowSpan="2"
+              Margin="5"
+              BorderBrush="Black"
+              BorderThickness="1">
+        <WebBrowser Name="frmBrowser"
+                    Navigated="frmBrowser_Navigated" />
+      </Border>
+    </Grid>
+
+
+
+  </Grid>
+</Window>

@@ -1,0 +1,1756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config name="RssWatcherConfig.xml" datafolderpath="data">
+  <group name="RSS groups">
+    <groups>
+      <group name="Presse">
+        <groups>
+          <group name="one">
+            <groups />
+            <channels>
+              <channel>
+                <title>DH.be - La Une</title>
+                <link>http://www.dhnet.be/rss/</link>
+                <description>La Une sur DH.be</description>
+                <category>UNE</category>
+                <language>fr-be</language>
+                <copyright>(C) Copyright 2003-2008 La Dernière Heure / Les Sports</copyright>
+                <lastbuilddate>2008-12-29 16:56-20</lastbuilddate>
+                <image>
+                  <title>DH.be</title>
+                  <url>http://www.dhnet.be/images/logo_rss.gif</url>
+                  <width>96</width>
+                  <height>22</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>RTL Infos - A La Une</title>
+                <link>http://feeds.feedburner.com/Rtlinfos-ALaUne</link>
+                <description>La Une sur RTL infos</description>
+                <category>UNE</category>
+                <language>fr-be</language>
+                <copyright></copyright>
+                <lastbuilddate>2008-12-29 16:56-20</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://www.rtlinfo.be/images/logortl-info.jpg</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>Lalibre.be - Economie</title>
+                <link>http://www.lalibre.be/section/3/economie.html</link>
+                <description>Economie sur LaLibre.be</description>
+                <category>ECONOMIE</category>
+                <language>fr-be</language>
+                <copyright>? Copyright 2003-2009 La Libre Belgique</copyright>
+                <lastbuilddate>2009-01-13 21:39-49</lastbuilddate>
+                <image>
+                  <title>Lalibre.be</title>
+                  <url>http://www.lalibre.be/pictures/logo.gif</url>
+                  <width>103</width>
+                  <height>60</height>
+                </image>
+                <items />
+              </channel>
+            </channels>
+          </group>
+        </groups>
+        <channels />
+      </group>
+      <group name="E:\sr.opml">
+        <groups>
+          <group name="Sacha">
+            <groups />
+            <channels>
+              <channel>
+                <title>La vie de mes enfants extra-ordinaires</title>
+                <link>http://lafamillebolly.canalblog.com/rss.xml</link>
+                <description>Romain (1995), Sacha (2000), Annaëlle (2001) et Maëlys (2004) forment notre tribu particulière, en y ajoutant, bien entendu Eric, le papa et moi, la maman. Sacha et Maëlys sont des enfants différents : ils sont autistes...</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+            </channels>
+          </group>
+          <group name="Ebay">
+            <groups />
+            <channels>
+              <channel>
+                <title>hp z800(Catégorie:Informatique &amp; PDA)</title>
+                <link>http://www.befr.ebay.be/sch/Informatique-PDA-/160/i.html?LH_AvailTo=23&amp;rt=nc&amp;_nkw=hp+z800&amp;_rss=1</link>
+                <description>hp z800(Catégorie:Informatique &amp; PDA)</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>dell 670</title>
+                <link>http://www.befr.ebay.be/sch/i.html?rt=nc&amp;_nkw=dell+670&amp;_rss=1</link>
+                <description>dell 670</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>xw8600(Catégorie:Informatique &amp; PDA)</title>
+                <link>http://www.befr.ebay.be/sch/Informatique-PDA-/160/i.html?LH_AvailTo=23&amp;rt=nc&amp;_nkw=xw8600&amp;_rss=1</link>
+                <description>xw8600(Catégorie:Informatique &amp; PDA)</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>xw8400(Catégorie:Informatique &amp; PDA)</title>
+                <link>http://www.befr.ebay.be/sch/Informatique-PDA-/160/i.html?LH_AvailTo=23&amp;rt=nc&amp;_nkw=xw8400&amp;_rss=1</link>
+                <description>xw8400(Catégorie:Informatique &amp; PDA)</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>hp xw(Catégorie:Informatique &amp; PDA)</title>
+                <link>http://www.befr.ebay.be/sch/Informatique-PDA-/160/i.html?LH_AvailTo=23&amp;rt=nc&amp;_nkw=hp+xw&amp;_rss=1</link>
+                <description>hp xw(Catégorie:Informatique &amp; PDA)</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>(Catégorie:Autres Armoires &amp; Vitrines)</title>
+                <link>http://www.befr.ebay.be/sch/Autres-Armoires-Vitrines-/4960/i.html?LH_PrefLoc=1&amp;rt=nc&amp;_catref=1&amp;_rss=1</link>
+                <description>(Catégorie:Autres Armoires &amp; Vitrines)</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>(Catégorie:Autres Meubles &amp; Décoration)</title>
+                <link>http://www.befr.ebay.be/sch/Autres-Meubles-Decoration-/87235/i.html?LH_PrefLoc=1&amp;rt=nc&amp;_catref=1&amp;_rss=1&amp;_sc=1&amp;_sop=1</link>
+                <description>(Catégorie:Autres Meubles &amp; Décoration)</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>CF2D</title>
+                <link>http://www.befr.ebay.be/sch/cf2d/m.html?_ipg=&amp;_rss=1</link>
+                <description></description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>DropStore</title>
+                <link>http://www.befr.ebay.be/sch/dropstore_be/m.html?_ipg=&amp;_rss=1</link>
+                <description></description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>Eric</title>
+                <link>http://www.befr.ebay.be/sch/ebolly007/m.html?_ipg=&amp;_rss=1</link>
+                <description></description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>Guy</title>
+                <link>http://www.befr.ebay.be/sch/gdechamps/m.html?_ipg=&amp;_rss=1</link>
+                <description></description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>Electro112</title>
+                <link>http://www.befr.ebay.be/sch/electro112/m.html?rt=nc&amp;_ipg=&amp;_rss=1</link>
+                <description></description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>LeaderElectronics112</title>
+                <link>http://www.befr.ebay.be/sch/leaderelectronics112/m.html?_ipg=&amp;_rss=1</link>
+                <description></description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+            </channels>
+          </group>
+          <group name="Cuisine">
+            <groups />
+            <channels>
+              <channel>
+                <title>Marmiton.org - Gestes de cuisine en vidéo</title>
+                <link>http://www.marmiton.org/rss/techniques-cuisine-video.aspx</link>
+                <description>Mieux cuisiner, c'est facile grâce à nos gestes de cuisine en vidéo</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>Marmiton.org - Dernières recettes publiées sur Marmiton.org</title>
+                <link>http://www.marmiton.org/rss/recettes-nouveautes.aspx</link>
+                <description>De nouvelles recettes de cuisine chaque jour ! Suivez les recettes et les tendances de la cuisine avec Marmiton...</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>Recettes du Québec : La recette du jour</title>
+                <link>http://www.recettes.qc.ca/partenaires/rdj/titre_xml.php</link>
+                <description>Des recettes simples de tous les jours !</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>Les dernières recettes de Belgourmet</title>
+                <link>http://fr.belgourmet.be/rss/rss2.php</link>
+                <description>Voici, pour vous, les dernières recettes du site Belgourmet!</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items/>
+              </channel>
+            </channels>
+          </group>
+          <group name="Games">
+            <groups>
+              <group name="Guild War">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>Guild Wars - News</title>
+                    <link>http://fr.guildwars.com/home/news.rss</link>
+                    <description></description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Guild Wars - Nouvelles de la communauté</title>
+                    <link>http://fr.guildwars.com/home/community-news.rss</link>
+                    <description></description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Guild Wars - Game Updates</title>
+                    <link>http://fr.guildwars.com/home/game-updates.rss</link>
+                    <description></description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+            </groups>
+            <channels />
+          </group>
+          <group name="Finance">
+            <groups />
+            <channels>
+              <channel>
+                <title>ECB | US dollar (USD) - Euro foreign exchange reference rates</title>
+                <link>http://www.ecb.int/rss/fxref-usd.html</link>
+                <description>The reference rates are based on the regular daily concertation procedure between central banks within and outside the European System of Central Banks, which normally takes place at 2.15 p.m. (14:15) ECB time.</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+            </channels>
+          </group>
+          <group name="IT">
+            <groups>
+              <group name="Technology">
+                <groups>
+                  <group name="Development .NET">
+                    <groups />
+                    <channels>
+                      <channel>
+                        <title>CSharpFeeds</title>
+                        <link>http://feeds.csharpfeeds.com/CSharpFeeds</link>
+                        <description>CSharpFeeds - All your C# feeds in one place.</description>
+                        <category></category>
+                        <language></language>
+                        <copyright></copyright>
+                        <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                        <image>
+                          <title></title>
+                          <url>http://127.0.0.1/</url>
+                          <width>0</width>
+                          <height>0</height>
+                        </image>
+                        <items />
+                      </channel>
+                    </channels>
+                  </group>
+                  <group name="SQL">
+                    <groups />
+                    <channels>
+                      <channel>
+                        <title>SQLDTS.com - SQLIS.com</title>
+                        <link>http://www.sqldts.com/rss.aspx</link>
+                        <description>Microsoft SQL Server Data Transformation Services on the web.</description>
+                        <category></category>
+                        <language></language>
+                        <copyright></copyright>
+                        <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                        <image>
+                          <title></title>
+                          <url>http://127.0.0.1/</url>
+                          <width>0</width>
+                          <height>0</height>
+                        </image>
+                        <items />
+                      </channel>
+                      <channel>
+                        <title>SQLServerCentral.com Articles</title>
+                        <link>http://www.sqlservercentral.com/Xml/Rss/articles</link>
+                        <description>Articles posted on SQLServerCentral.com</description>
+                        <category></category>
+                        <language></language>
+                        <copyright></copyright>
+                        <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                        <image>
+                          <title></title>
+                          <url>http://127.0.0.1/</url>
+                          <width>0</width>
+                          <height>0</height>
+                        </image>
+                        <items />
+                      </channel>
+                    </channels>
+                  </group>
+                  <group name="Exchange">
+                    <groups />
+                    <channels>
+                      <channel>
+                        <title>MSExchange.org</title>
+                        <link>http://rss.msexchange.org/allnews.xml</link>
+                        <description>Latest Microsoft Exchange Server news, articles and tutorials from MSExchange.org</description>
+                        <category></category>
+                        <language></language>
+                        <copyright></copyright>
+                        <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                        <image>
+                          <title></title>
+                          <url>http://127.0.0.1/</url>
+                          <width>0</width>
+                          <height>0</height>
+                        </image>
+                        <items />
+                      </channel>
+                    </channels>
+                  </group>
+                  <group name="VmWare">
+                    <groups />
+                    <channels>
+                      <channel>
+                        <title>VMware RSS Feed</title>
+                        <link>http://feeds.vmware.com/f/100003s2bbb1l0t331z.rss</link>
+                        <description>VMware RSS Feed</description>
+                        <category></category>
+                        <language></language>
+                        <copyright></copyright>
+                        <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                        <image>
+                          <title></title>
+                          <url>http://127.0.0.1/</url>
+                          <width>0</width>
+                          <height>0</height>
+                        </image>
+                        <items />
+                      </channel>
+                    </channels>
+                  </group>
+                  <group name="Tips and tricks">
+                    <groups />
+                    <channels />
+                  </group>
+                </groups>
+                <channels />
+              </group>
+              <group name="Development">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>The Inquisitive Coder - Davy Brion's Blog</title>
+                    <link>http://feeds.feedburner.com/davybrion</link>
+                    <description>inquisitive: adjective. given to inquiry, research, or asking questions; eager for knowledge; intellectually curious</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="Microsoft">
+                <groups>
+                  <group name="Architecture">
+                    <groups />
+                    <channels>
+                      <channel>
+                        <title>Eric Nelson - Development for .NET Framework 3.0 (WinFX as was) for ISVs : Architecture</title>
+                        <link>http://feeds2.feedburner.com/iupdateable</link>
+                        <description>Head in the Clouds, feet in the .NET Framework, hands on a gaming mouse</description>
+                        <category></category>
+                        <language></language>
+                        <copyright></copyright>
+                        <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                        <image>
+                          <title></title>
+                          <url>http://127.0.0.1/</url>
+                          <width>0</width>
+                          <height>0</height>
+                        </image>
+                        <items />
+                      </channel>
+                      <channel>
+                        <title>Marc My Words : Architecture</title>
+                        <link>http://feeds2.feedburner.com/MarcMyWords</link>
+                        <description>Microsoftie thinking about dialogue with developers. Brit in Seattle. Windswept and Interesting.</description>
+                        <category></category>
+                        <language></language>
+                        <copyright></copyright>
+                        <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                        <image>
+                          <title></title>
+                          <url>http://127.0.0.1/</url>
+                          <width>0</width>
+                          <height>0</height>
+                        </image>
+                        <items />
+                      </channel>
+                    </channels>
+                  </group>
+                  <group name="Security">
+                    <groups />
+                    <channels>
+                      <channel>
+                        <title>Canadian Developers : Security</title>
+                        <link>http://feeds.feedburner.com/CanDevs</link>
+                        <description></description>
+                        <category></category>
+                        <language></language>
+                        <copyright></copyright>
+                        <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                        <image>
+                          <title></title>
+                          <url>http://127.0.0.1/</url>
+                          <width>0</width>
+                          <height>0</height>
+                        </image>
+                        <items />
+                      </channel>
+                      <channel>
+                        <title>J.D. Meier's Blog : Security</title>
+                        <link>http://feeds.feedburner.com/jmeier</link>
+                        <description>Software Engineering, Project Management, and Effectiveness</description>
+                        <category></category>
+                        <language></language>
+                        <copyright></copyright>
+                        <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                        <image>
+                          <title></title>
+                          <url>http://127.0.0.1/</url>
+                          <width>0</width>
+                          <height>0</height>
+                        </image>
+                        <items />
+                      </channel>
+                    </channels>
+                  </group>
+                  <group name="Technology">
+                    <groups />
+                    <channels>
+                      <channel>
+                        <title>Steve Clayton: Geek In Disguise : Technology</title>
+                        <link>http://feeds.feedburner.com/GeekinDisguise</link>
+                        <description>“THE BEST WAY TO PREDICT THE FUTURE IS TO CREATE IT.” - Peter Drucker</description>
+                        <category></category>
+                        <language></language>
+                        <copyright></copyright>
+                        <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                        <image>
+                          <title></title>
+                          <url>http://127.0.0.1/</url>
+                          <width>0</width>
+                          <height>0</height>
+                        </image>
+                        <items />
+                      </channel>
+                    </channels>
+                  </group>
+                </groups>
+                <channels />
+              </group>
+            </groups>
+            <channels>
+              <channel>
+                <title>Visual Studio Gallery Feed</title>
+                <link>http://visualstudiogallery.msdn.microsoft.com/site/feeds/searchRss/?localeName=en-us&amp;f[0].Type=VisualStudioVersion&amp;f[0].Value=10.0&amp;f[0].Text=Visual Studio 2010&amp;f[1].Type=CostCategory&amp;f[1].Value=0&amp;f[1].Text=Free&amp;sortBy=Date</link>
+                <description>This is the RSS search feed for Visual Studio Gallery. This feed contains notifications of new items on the Visual Studio Gallery site based on your search criteria.</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>Wow! eBook</title>
+                <link>http://www.wowebook.com/feed/</link>
+                <description>Great ebook, great site!</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>Within Windows</title>
+                <link>http://feeds.feedburner.com/WithinWindows?format=xml</link>
+                <description>Not your usual Microsoft enthusiast blog.</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+            </channels>
+          </group>
+          <group name="Jobs">
+            <groups />
+            <channels>
+              <channel>
+                <title>ictjob.be</title>
+                <link>http://fr.ictjob.be/rss?function=145,146,356,168,154,155,153,142,149,147,392,165,364,408,162,362,164,163,159,160,169,148&amp;devskills=180,181,179,188,190,209,208,218&amp;sysskills=263,267,268,274,276,277,278,385,289,300,365,367,359,304&amp;busskills=&amp;studyLevels=&amp;experiences=137,138,139&amp;keywords=&amp;keywords_options=OR&amp;contractTypes=&amp;jobModes=&amp;contractDurations=&amp;regions=3,4,7,8,10,11&amp;sectors=&amp;searchLanguage=</link>
+                <description>Votre recherche: Analyst Programmer, Application Architect, Business Analyst, Consultant (Specialist), Database Administrator, Database Architect, Database Developer, Developer / Programmer, Functional Analyst, Infrastructure Architect, Middleware Specialist, Network / Telecom Engineer, Process Analyst, Program Manager, Security Engineer, Software Administrator, Storage Specialist, System Engineer / Administrator, Team Leader, Technical Analyst, ASP.NET, C#, ASP, HTML / DHTML, JavaScript, MS SQL, SQL, XML / XSL / XSLT, Access, Antispam, Antivirus, Desktop / PC, Exchange, Firewall, Hardware, MS Office, Network, SQL Server, Storage, VMware, Windows, Windows Server, Brabant wallon, Bruxelles, Hainaut, Liège, Prov. Luxembourg, Namur</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+              <channel>
+                <title>Offres d'emploi Monster</title>
+                <link>http://rss.jobsearch.monster.com/rssquery.ashx?occ=660.11996&amp;occ=660.11969&amp;occ=660.11772&amp;occ=660.11787&amp;occ=660.11904&amp;occ=660.11848&amp;occ=660.11882&amp;occ=660.11754&amp;occ=660.11970&amp;occ=660.11774&amp;occ=660.11979&amp;occ=660.11987&amp;occ=660.12005&amp;cy=be&amp;re=508&amp;k=JobSearch;Browse&amp;baseurl=offreemploi.monster.be</link>
+                <description>Flux RSS des Résultats de recherche d'offres d'emploi sur Monster.fr</description>
+                <category></category>
+                <language></language>
+                <copyright></copyright>
+                <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                <image>
+                  <title></title>
+                  <url>http://127.0.0.1/</url>
+                  <width>0</width>
+                  <height>0</height>
+                </image>
+                <items />
+              </channel>
+            </channels>
+          </group>
+          <group name="Movies, Music, ...">
+            <groups>
+              <group name="Emule-Island">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>eMule-Island - Derniers ajouts Films</title>
+                    <link>http://www.emule-island.ru/rss-telechargement-1</link>
+                    <description></description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>eMule-Island - Derniers ajouts Mangas</title>
+                    <link>http://www.emule-island.ru/rss-telechargement-3</link>
+                    <description></description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>eMule-Island - Derniers ajouts Séries TV</title>
+                    <link>http://www.emule-island.ru/rss-telechargement-6</link>
+                    <description></description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>eMule-Island - Derniers ajouts Spectacles</title>
+                    <link>http://www.emule-island.ru/rss-telechargement-2</link>
+                    <description></description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="NG4You - Ebooks">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>Newsgroups For You : E-Books :: Bandes dessinées</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_602.xml</link>
+                    <description>Derniers référencements dans la catégorie « E-Books &gt;&gt; Bandes dessinés » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : E-Books :: Magazines</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_605.xml</link>
+                    <description>Derniers référencements dans la catégorie « E-Books &gt;&gt; Magazines » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : E-Books &gt;&gt; Cours / Tutoriels</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_601.xml</link>
+                    <description>Derniers référencements dans la catégorie « E-Books &gt;&gt; Cours / Tutoriels » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : E-Books &gt;&gt; Livres</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_603.xml</link>
+                    <description>Derniers référencements dans la catégorie « E-Books &gt;&gt; Livres » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="NG4You - Jeux">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>Newsgroups For You : Jeux PC &gt;&gt; Isos</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_401.xml</link>
+                    <description>Derniers référencements dans la catégorie « Jeux PC &gt;&gt; Isos » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : Jeux PC &gt;&gt; Petits jeux</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_402.xml</link>
+                    <description>Derniers référencements dans la catégorie « Jeux PC &gt;&gt; Petits jeux » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="NG4You - Music">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>Newsgroups For You : alt.binaries.sounds.lossless</title>
+                    <link>http://www.ng4you.com/rss/rss_group_alt.binaries.sounds.lossless.xml</link>
+                    <description>Derniers référencements dans la catégorie « alt.binaries.sounds.lossless » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : alt.binaries.sounds.flac</title>
+                    <link>http://www.ng4you.com/rss/rss_group_alt.binaries.sounds.flac.xml</link>
+                    <description>Derniers référencements dans la catégorie « alt.binaries.sounds.flac » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : alt.binaries.sounds.lossless.blues</title>
+                    <link>http://www.ng4you.com/rss/rss_group_alt.binaries.sounds.lossless.blues.xml</link>
+                    <description>Derniers référencements dans la catégorie « alt.binaries.sounds.lossless.blues » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : alt.binaries.sounds.lossless.classical</title>
+                    <link>http://www.ng4you.com/rss/rss_group_alt.binaries.sounds.lossless.classical.xml</link>
+                    <description>Derniers référencements dans la catégorie « alt.binaries.sounds.lossless.classical » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : alt.binaries.sounds.lossless.electronic</title>
+                    <link>http://www.ng4you.com/rss/rss_group_alt.binaries.sounds.lossless.electronic.xml</link>
+                    <description>Derniers référencements dans la catégorie « alt.binaries.sounds.lossless.electronic » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : alt.binaries.sounds.lossless.flac</title>
+                    <link>http://www.ng4you.com/rss/rss_group_alt.binaries.sounds.lossless.flac.xml</link>
+                    <description>Derniers référencements dans la catégorie « alt.binaries.sounds.lossless.flac » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : alt.binaries.sounds.lossless.jazz</title>
+                    <link>http://www.ng4you.com/rss/rss_group_alt.binaries.sounds.lossless.jazz.xml</link>
+                    <description>Derniers référencements dans la catégorie « alt.binaries.sounds.lossless.jazz » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : alt.binaries.sounds.lossless.new-age</title>
+                    <link>http://www.ng4you.com/rss/rss_group_alt.binaries.sounds.lossless.new-age.xml</link>
+                    <description>Derniers référencements dans la catégorie « alt.binaries.sounds.lossless.new-age » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : alt.binaries.sounds.lossless.rock</title>
+                    <link>http://www.ng4you.com/rss/rss_group_alt.binaries.sounds.lossless.rock.xml</link>
+                    <description>Derniers référencements dans la catégorie « alt.binaries.sounds.lossless.rock » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="NG4You - Video">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>Newsgroups For You : Séries</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_102.xml</link>
+                    <description>Derniers référencements dans la catégorie « Vidéos &gt;&gt; Séries » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : Séries animées</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_104.xml</link>
+                    <description>Derniers référencements dans la catégorie « Vidéos &gt;&gt; Séries animées » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : Vidéos :: Films</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_101.xml</link>
+                    <description>Derniers référencements dans la catégorie « Vidéos &gt;&gt; Films » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : Vidéos :: Films animés</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_103.xml</link>
+                    <description>Derniers référencements dans la catégorie « Vidéos &gt;&gt; Films animés » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : Vidéos &gt;&gt; Documentaires</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_105.xml</link>
+                    <description>Derniers référencements dans la catégorie « Vidéos &gt;&gt; Documentaires » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : Vidéos &gt;&gt; Emissions TV</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_106.xml</link>
+                    <description>Derniers référencements dans la catégorie « Vidéos &gt;&gt; Emissions TV » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : Vidéos &gt;&gt; Spectacles</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_107.xml</link>
+                    <description>Derniers référencements dans la catégorie « Vidéos &gt;&gt; Spectacles » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Newsgroups For You : Vidéos &gt;&gt; XXX</title>
+                    <link>http://www.ng4you.com/rss/rss_cat_199.xml</link>
+                    <description>Derniers référencements dans la catégorie « Vidéos &gt;&gt; XXX » sur Newsgroups For You</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+            </groups>
+            <channels />
+          </group>
+          <group name="Press">
+            <groups>
+              <group name="L'avenir">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>L'Avenir.net: Villers-le-Bouillet</title>
+                    <link>http://www.lavenir.net/rss.aspx?foto=1&amp;intro=1§ion=zipcode&amp;zipcode=4530</link>
+                    <description>L'actu de Villers-le-Bouillet</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>L'Avenir.net: Engis</title>
+                    <link>http://www.lavenir.net/rss.aspx?foto=1&amp;intro=1§ion=zipcode&amp;zipcode=4480</link>
+                    <description>L'actu de Engis</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>L'Avenir.net: Infos</title>
+                    <link>http://www.lavenir.net/rss.aspx?foto=1&amp;intro=1&amp;section=info&amp;info=e0173fad-799c-409c-a2af-acbea2caf661</link>
+                    <description>Lavenir.net - L'actu de la province de Liège</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="Trends / Tendances">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>Actualité</title>
+                    <link>http://rss.feedsportal.com/c/32703/f/502999/index.rss</link>
+                    <description>Alles over Actualité</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="RTBF">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>RTBF Info - Dernière minute</title>
+                    <link>http://rss.rtbf.be/article/rss/rtbfinfo_homepage.xml</link>
+                    <description>Retrouvez les dernières infos RTBF info.</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="RTL">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>RTL Infos - A La Une</title>
+                    <link>http://feeds.feedburner.com/Rtlinfos-ALaUne</link>
+                    <description>Toute l'actualité 24h/24 - 7j/7 en vidéo, en texte et en image.</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="La Meuse">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>La Meuse : Insolite</title>
+                    <link>http://www.lameuse.be/services/fils_rss/magazine/insolite/index.xml</link>
+                    <description>L'info en continu</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>La Meuse : Faits Divers</title>
+                    <link>http://www.lameuse.be/services/fils_rss/actualite/faits_divers/index.xml</link>
+                    <description>L'info en continu</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>La Meuse : Liège</title>
+                    <link>http://www.lameuse.be/services/fils_rss/regions/liege/index.xml</link>
+                    <description>L'info en continu</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>La Meuse : Huy-Waremme</title>
+                    <link>http://www.lameuse.be/services/fils_rss/regions/huy_waremme/index.xml</link>
+                    <description>L'info en continu</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>La Meuse : Actualité</title>
+                    <link>http://www.lameuse.be/services/fils_rss/actualite/index.xml</link>
+                    <description>L'info en continu</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="La DH">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>DHNet.be - La Une</title>
+                    <link>http://www.dhnet.be/rss/</link>
+                    <description>La Une sur DH.be</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>DHNet.be - Infos</title>
+                    <link>http://www.dhnet.be/rss/dhinfos/</link>
+                    <description>Infos sur DH.be</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="La Libre Belgique">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>Lalibre.be - Economie</title>
+                    <link>http://www.lalibre.be/rss/?section=3</link>
+                    <description>Nos articles de la rubrique Economie sur LaLibre.be</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Lalibre.be - Sports</title>
+                    <link>http://www.lalibre.be/rss/?section=2</link>
+                    <description>Nos articles de la rubrique Sports sur LaLibre.be</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Lalibre.be - La Une</title>
+                    <link>http://www.lalibre.be/rss/index.xml</link>
+                    <description>Nos articles à la Une sur LaLibre.be</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="IT">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>Presence PC - Actualité</title>
+                    <link>http://www.tomshardware.com/fr/feeds/rss2/tom-s-hardware-fr,1-1.xml</link>
+                    <description>Tom's Hardware FR</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Clubic.com - Actualité</title>
+                    <link>http://www.clubic.com/articles.rss</link>
+                    <description>articles</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="Le Soir">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>Le Soir en ligne: le fil info</title>
+                    <link>http://www.lesoir.be/services/rss/le_fil_Info/index.xml</link>
+                    <description>L'info en continu</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>Le Soir en ligne: la une</title>
+                    <link>http://www.lesoir.be/services/rss/la_une/index.xml</link>
+                    <description>L'info en continu</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+              <group name="S&amp;T Press">
+                <groups />
+                <channels>
+                  <channel>
+                    <title>BE France</title>
+                    <link>http://www.bulletins-electroniques.com/rss/be_france.xml</link>
+                    <description>Toute l'actualité technologique en provenance de l'ADIT. Les Bulletins Electroniques (BE) sont un service ADIT et sont accessibles gratuitement sur http://www.bulletins-electroniques.com</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>BE Canada</title>
+                    <link>http://www.bulletins-electroniques.com/rss/be_canada.xml</link>
+                    <description>Toute l'actualité technologique en provenance de l'Ambassade de France au Canada. Les Bulletins Electroniques (BE) sont un service ADIT et sont accessibles gratuitement sur http://www.bulletins-electroniques.com</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>BE Allemagne</title>
+                    <link>http://www.bulletins-electroniques.com/rss/be_allemagne.xml</link>
+                    <description>Toute l'actualité technologique en provenance de l'Ambassade de France en Allemagne. Les Bulletins Electroniques (BE) sont un service ADIT et sont accessibles gratuitement sur http://www.bulletins-electroniques.com</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>BE Suisse</title>
+                    <link>http://www.bulletins-electroniques.com/rss/be_suisse.xml</link>
+                    <description>Toute l'actualité technologique en provenance de l'Ambassade de France en Suisse. Les Bulletins Electroniques (BE) sont un service ADIT et sont accessibles gratuitement sur http://www.bulletins-electroniques.com</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>BE Royaume-Uni</title>
+                    <link>http://www.bulletins-electroniques.com/rss/be_royaumeuni.xml</link>
+                    <description>Toute l'actualité technologique en provenance de l'Ambassade de France au Royaume-Uni. Les Bulletins Electroniques (BE) sont un service ADIT et sont accessibles gratuitement sur http://www.bulletins-electroniques.com</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>BE Belgique</title>
+                    <link>http://www.bulletins-electroniques.com/rss/be_belgique.xml</link>
+                    <description>Toute l'actualité technologique en provenance de l'Ambassade de France en Belgique. Les Bulletins Electroniques (BE) sont un service ADIT et sont accessibles gratuitement sur http://www.bulletins-electroniques.com</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>BE Japon</title>
+                    <link>http://www.bulletins-electroniques.com/rss/be_japon.xml</link>
+                    <description>Toute l'actualité technologique en provenance de l'Ambassade de France au Japon. Les Bulletins Electroniques (BE) sont un service ADIT et sont accessibles gratuitement sur http://www.bulletins-electroniques.com</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                  <channel>
+                    <title>BE Etats-Unis</title>
+                    <link>http://www.bulletins-electroniques.com/rss/be_etatsunis.xml</link>
+                    <description>Toute l'actualité technologique en provenance de l'Ambassade de France aux Etats-Unis. Les Bulletins Electroniques (BE) sont un service ADIT et sont accessibles gratuitement sur http://www.bulletins-electroniques.com</description>
+                    <category></category>
+                    <language></language>
+                    <copyright></copyright>
+                    <lastbuilddate>0001-01-01 00:00-00</lastbuilddate>
+                    <image>
+                      <title></title>
+                      <url>http://127.0.0.1/</url>
+                      <width>0</width>
+                      <height>0</height>
+                    </image>
+                    <items />
+                  </channel>
+                </channels>
+              </group>
+            </groups>
+            <channels />
+          </group>
+        </groups>
+        <channels />
+      </group>
+    </groups>
+    <channels>
+      <channel>
+        <title>DH.be - La Une</title>
+        <link>http://www.dhnet.be/rss/</link>
+        <description>La Une sur DH.be</description>
+        <category>UNE</category>
+        <language>fr-be</language>
+        <copyright>(C) Copyright 2003-2008 La Dernière Heure / Les Sports</copyright>
+        <lastbuilddate>2008-12-29 16:56-20</lastbuilddate>
+        <image>
+          <title>DH.be</title>
+          <url>http://www.dhnet.be/images/logo_rss.gif</url>
+          <width>96</width>
+          <height>22</height>
+        </image>
+        <items />
+      </channel>
+    </channels>
+  </group>
+</config>
